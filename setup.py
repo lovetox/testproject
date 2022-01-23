@@ -6,7 +6,7 @@ setup(
   description='Test Project',
   version='1.0.0',
   packages=find_packages(),
-  package_data = {
+  package_data={
         'testproject': ['py.typed'],
   },
   python_requires='>=3.7',
